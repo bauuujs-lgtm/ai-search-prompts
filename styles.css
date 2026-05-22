@@ -369,6 +369,66 @@ h2 {
   cursor: pointer;
 }
 
+.card-actions {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 8px;
+  align-items: center;
+}
+
+.detail-link {
+  min-height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 0 12px;
+  color: var(--green);
+  font-weight: 760;
+  text-decoration: none;
+}
+
+.prompt-detail {
+  width: min(860px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 42px 0 72px;
+}
+
+.prompt-detail h1 {
+  font-size: clamp(2rem, 5vw, 4.4rem);
+}
+
+.detail-prompt {
+  margin-top: 24px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: white;
+  padding: 20px;
+  line-height: 1.85;
+  color: #2f3b34;
+}
+
+.detail-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 22px 0;
+}
+
+.detail-cta {
+  margin-top: 28px;
+  border: 1px dashed rgba(31, 107, 75, .5);
+  border-radius: 8px;
+  background: #f8fbf5;
+  padding: 18px;
+}
+
+.detail-cta a {
+  color: var(--green);
+  font-weight: 780;
+}
+
 .site-footer {
   border-top: 1px solid var(--line);
   padding: 26px 16px 34px;
@@ -436,6 +496,10 @@ h2 {
   }
 
   .prompt-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card-actions {
     grid-template-columns: 1fr;
   }
 }

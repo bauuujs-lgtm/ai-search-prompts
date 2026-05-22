@@ -52,7 +52,10 @@ function renderPrompts() {
       <h3>${item.title}</h3>
       <p class="summary">${item.summary}</p>
       <div class="prompt-text">${item.prompt}</div>
-      <button class="copy-button" data-copy="${encodeURIComponent(item.prompt)}">复制给 AI</button>
+      <div class="card-actions">
+        <button class="copy-button" data-copy="${encodeURIComponent(item.prompt)}">复制给 AI</button>
+        <a class="detail-link" href="./prompts/${item.id}.html">查看页面</a>
+      </div>
     </article>
   `).join("");
 }
