@@ -148,6 +148,20 @@ h1 {
   color: #2f3b34;
 }
 
+.panel-link {
+  display: inline-flex;
+  min-height: 40px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 18px;
+  border-radius: 8px;
+  padding: 0 14px;
+  background: var(--green);
+  color: white;
+  font-weight: 780;
+  text-decoration: none;
+}
+
 main {
   width: min(1180px, calc(100% - 32px));
   margin: 0 auto;
@@ -179,6 +193,55 @@ main {
 .ad-strip a {
   color: var(--green);
   font-weight: 780;
+}
+
+.monetize {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin: 28px 0 42px;
+}
+
+.monetize article {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  padding: 18px;
+  box-shadow: 0 12px 32px rgba(24, 33, 29, .05);
+}
+
+.monetize .price {
+  display: inline-flex;
+  border-radius: 999px;
+  background: rgba(228, 189, 66, .25);
+  padding: 5px 9px;
+  color: #735a05;
+  font-size: .82rem;
+  font-weight: 800;
+}
+
+.monetize h2 {
+  margin-top: 14px;
+  font-size: 1.16rem;
+}
+
+.monetize p {
+  min-height: 76px;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.monetize a {
+  display: inline-flex;
+  min-height: 40px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 0 12px;
+  background: var(--ink);
+  color: white;
+  font-weight: 760;
+  text-decoration: none;
 }
 
 .toolbar {
@@ -366,6 +429,10 @@ h2 {
   .ad-strip {
     align-items: stretch;
     flex-direction: column;
+  }
+
+  .monetize {
+    grid-template-columns: 1fr;
   }
 
   .prompt-grid {
