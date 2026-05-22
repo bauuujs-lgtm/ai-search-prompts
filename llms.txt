@@ -1,0 +1,138 @@
+# AI 搜索指令库
+
+> 给 DeepSeek、Kimi、豆包、ChatGPT、秘塔 AI 搜索等工具使用的中文联网搜索指令库。
+
+网站地址：https://bauuujs-lgtm.github.io/ai-search-prompts/
+
+## 主要页面
+
+- 首页：https://bauuujs-lgtm.github.io/ai-search-prompts/
+- 全部指令索引：https://bauuujs-lgtm.github.io/ai-search-prompts/prompts.html
+- 关于：https://bauuujs-lgtm.github.io/ai-search-prompts/about.html
+- Sitemap：https://bauuujs-lgtm.github.io/ai-search-prompts/sitemap.xml
+
+## 内容分类
+
+### 赚钱副业
+- [搜索适合普通人的 AI 副业](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/side-hustle-research.html)：让 AI 联网整理低成本、可执行的副业方向。
+- [搜索本地生活服务赚钱机会](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/local-service-ideas.html)：找适合个人启动的本地服务小项目。
+- [搜索 AI 自动化服务需求](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/ai-agent-service.html)：寻找可售卖的 AI 工作流服务。
+- [搜索国内可推广的联盟项目](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/affiliate-programs-cn.html)：寻找适合内容站的合法返佣项目。
+- [搜索可售卖的数字产品](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/digital-product-ideas.html)：寻找模板包、资料包和轻量课程机会。
+- [搜索自由职业平台需求](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/freelance-platform-demand.html)：分析线上接单平台的热门任务。
+- [搜索 AI 小项目机会](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/ai-side-project-ideas.html)：找可以做成网站或工具的项目点子。
+- [搜索付费通讯选题](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/paid-newsletter-ideas.html)：寻找可持续更新的付费内容方向。
+- [搜索提示词包市场需求](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/prompt-pack-market.html)：判断提示词包能卖给谁。
+- [搜索中文 Micro SaaS 机会](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/micro-saas-cn.html)：寻找低维护小软件机会。
+
+### 内容运营
+- [搜索小红书近期热门选题](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/xiaohongshu-topic-research.html)：让 AI 搜索某个领域的小红书内容趋势和选题。
+- [搜索抖音短视频脚本结构](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/douyin-script-research.html)：分析某领域短视频爆款结构。
+- [搜索 B站视频选题地图](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/bilibili-topic-map.html)：为 B站账号规划选题。
+- [搜索公众号文章选题](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/wechat-article-plan.html)：找适合公众号沉淀的长文主题。
+- [搜索 SEO 关键词集群](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/seo-keyword-cluster.html)：为网站生成关键词和栏目。
+- [搜索并生成 30 天内容日历](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/content-calendar-30days.html)：把一个主题拆成月度内容计划。
+- [搜索爆款标题结构](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/viral-title-patterns.html)：提炼标题模板但避免标题党。
+- [搜索评论区需求](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/comment-demand-mining.html)：从评论里提炼下一批内容。
+- [搜索账号定位案例](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/account-positioning.html)：找账号定位和差异化方向。
+- [搜索行业简报信息源](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/newsletter-sources.html)：搭建可持续更新的信息源列表。
+
+### 商业调研
+- [搜索并分析竞品](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/competitor-analysis.html)：让 AI 快速整理竞品价格、卖点和用户反馈。
+- [搜索用户真实需求](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/customer-demand-mining.html)：从评论、论坛和问答中提炼痛点。
+- [搜索市场规模估算](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/market-size-estimate.html)：用公开资料估算市场空间。
+- [搜索定价区间](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/pricing-research.html)：分析同类产品怎么定价。
+- [搜索落地页卖点](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/landing-page-analysis.html)：分析竞品页面如何转化。
+- [搜索 B2B 潜在客户画像](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/b2b-lead-list.html)：定义适合销售触达的客户类型。
+- [搜索行业报告并总结](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/industry-report-summary.html)：整理公开行业报告结论。
+- [搜索应用商店评论痛点](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/app-store-review-mining.html)：从 App 评论挖需求。
+- [搜索品牌口碑](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/brand-sentiment-search.html)：了解一个品牌的公众评价。
+- [搜索产品冷启动案例](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/go-to-market-examples.html)：寻找可借鉴的获客路径。
+
+### 电商选品
+- [搜索低竞争产品机会](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/product-blue-ocean.html)：让 AI 搜索需求、竞争、价格和风险。
+- [搜索淘宝关键词需求](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/taobao-keyword-demand.html)：分析淘宝/天猫用户购买需求。
+- [搜索拼多多产品风险](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/pdd-product-risk.html)：判断低价产品是否适合做。
+- [搜索跨境小众产品](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/cross-border-niche.html)：寻找跨境电商细分机会。
+- [搜索 Amazon 评论需求](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/amazon-review-mining.html)：从海外评论挖产品改进点。
+- [搜索闲鱼合法差价机会](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/xianyu-arbitrage-legal.html)：寻找不违规的二手交易机会。
+- [搜索供应商和拿货渠道](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/supplier-search.html)：找正规货源而不是灰产。
+- [搜索季节性产品机会](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/seasonal-products.html)：找近期节日和季节需求。
+- [搜索商品页文案结构](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/product-page-copy.html)：学习高转化商品详情页。
+- [搜索售后投诉风险](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/refund-complaint-risk.html)：提前判断品类售后压力。
+
+### AI工具
+- [搜索某类 AI 工具清单](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/ai-tool-list.html)：按场景整理 AI 工具、价格和适用人群。
+- [搜索软件替代品](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/software-alternative-search.html)：寻找更便宜或更适合的替代工具。
+- [搜索 DeepSeek 使用案例](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/deepseek-use-cases.html)：整理 DeepSeek 适合做什么。
+- [搜索 Kimi 长文档工作流](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/kimi-long-doc-workflow.html)：找 Kimi 处理资料的最佳用法。
+- [搜索豆包智能体用法](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/doubao-agent-use.html)：整理豆包适合的日常场景。
+- [搜索秘塔 AI 搜索工作流](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/metaso-search-workflow.html)：找适合秘塔的检索任务。
+- [搜索 AI 视频工具](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/ai-video-tools.html)：对比文字转视频和剪辑工具。
+- [搜索 AI 绘图工具](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/ai-image-tools.html)：对比绘图工具和商用风险。
+- [搜索 AI 编程工具](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/ai-coding-tools.html)：对比代码助手适用场景。
+- [搜索 AI 办公工具组合](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/ai-office-suite.html)：为普通办公搭配工具。
+
+### 购物决策
+- [搜索 RTX 4090 价格和购买建议](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/rtx4090-price-check.html)：让 AI 搜索显卡近期价格、渠道和风险。
+- [搜索笔记本电脑购买建议](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/laptop-buying-guide.html)：按预算和用途整理机型。
+- [搜索手机对比](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/phone-comparison.html)：比较两三款手机是否值得买。
+- [搜索家电避坑清单](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/home-appliance-reviews.html)：买家电前整理口碑和故障点。
+- [搜索二手相机购买建议](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/used-camera-buying.html)：判断二手摄影设备风险。
+- [搜索课程是否值得买](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/course-worth-buying.html)：判断课程口碑和替代资源。
+- [搜索软件订阅替代方案](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/subscription-audit.html)：减少订阅开销。
+- [搜索汽车购买建议](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/car-buying-research.html)：整理车型口碑和成本。
+- [搜索租房避坑信息](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/rental-house-check.html)：租房前检查地段和风险。
+- [搜索健康设备购买注意](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/medical-device-buying.html)：仅做消费信息，不替代医疗建议。
+
+### 学习研究
+- [搜索并总结某领域论文](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/paper-summary-search.html)：让 AI 找论文、总结结论和研究趋势。
+- [搜索学习路线图](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/learning-roadmap.html)：为一个技能生成学习路径。
+- [搜索免费课程资源](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/open-course-search.html)：找免费公开课和资料。
+- [搜索考试备考资料](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/exam-prep-plan.html)：整理备考路线和资料。
+- [搜索某主题书单](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/book-summary-sources.html)：找高质量书籍和摘要。
+- [搜索案例库](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/case-study-search.html)：为学习或写作找案例。
+- [搜索公开数据集](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/dataset-search.html)：找适合分析练习的数据。
+- [搜索历史事件时间线](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/history-timeline.html)：整理事件发展脉络。
+- [搜索概念解释和例子](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/concept-explainer.html)：把复杂概念讲给新手。
+- [搜索论文选题](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/thesis-topic-search.html)：寻找可写的毕业论文方向。
+
+### 求职职业
+- [搜索某岗位市场需求](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/job-market-search.html)：整理岗位要求、薪资、技能和学习路线。
+- [搜索简历关键词](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/resume-keyword-search.html)：让简历匹配岗位 JD。
+- [搜索面试题库](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/interview-question-bank.html)：整理常见面试题和答题框架。
+- [搜索作品集案例](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/portfolio-examples.html)：找到可参考的作品集结构。
+- [搜索转行路线](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/career-switch-plan.html)：为转行做现实规划。
+- [搜索薪资谈判信息](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/salary-negotiation.html)：准备谈薪资料。
+- [搜索远程工作机会](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/remote-job-search.html)：找远程岗位和申请方式。
+- [搜索接单主页写法](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/freelance-profile-setup.html)：优化自由职业者主页。
+- [搜索证书是否值得考](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/certification-worth.html)：判断证书 ROI。
+- [搜索行业职业趋势](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/industry-career-trends.html)：判断行业机会和风险。
+
+### 合规风险
+- [搜索项目合规风险](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/policy-risk-check.html)：让 AI 检查一个业务想法可能踩到的规则。
+- [搜索广告法风险词](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/ad-law-copy-check.html)：检查文案是否夸大宣传。
+- [搜索隐私政策要求](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/privacy-policy-requirements.html)：做网站或小程序前检查隐私合规。
+- [搜索版权风险](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/copyright-risk-check.html)：检查图片、字体、文本和数据来源。
+- [搜索平台规则](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/platform-rule-check.html)：检查一个玩法是否违反平台规则。
+- [搜索收款和结算风险](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/payment-risk-check.html)：检查个人收款做业务的风险。
+- [搜索 AI 生成内容风险](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/ai-generated-content-risk.html)：检查 AI 内容发布风险。
+- [搜索爬虫采集合规风险](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/scraping-legal-check.html)：判断采集公开数据是否安全。
+- [搜索抽奖活动规则](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/giveaway-promotion-rules.html)：做活动前检查规则。
+- [搜索健康产品宣传风险](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/medical-claim-check.html)：检查健康相关文案。
+
+### 生活决策
+- [搜索旅行攻略并生成计划](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/travel-plan-search.html)：让 AI 搜索景点、费用、路线和避坑。
+- [搜索城市生活成本](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/city-cost-living.html)：搬家前了解成本。
+- [搜索学校和专业选择](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/school-choice-research.html)：整理学校、专业和就业信息。
+- [搜索保险对比信息](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/insurance-comparison.html)：理解保险产品但不替代专业建议。
+- [搜索健身计划资料](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/fitness-plan-research.html)：整理训练和饮食资料。
+- [搜索育儿资料](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/parenting-resource-search.html)：整理育儿问题资料和提醒。
+- [搜索法律信息和流程](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/legal-info-search.html)：整理公开法律信息但不替代律师。
+- [搜索装修预算和避坑](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/home-decoration-budget.html)：装修前整理预算和风险。
+- [搜索宠物护理资料](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/pet-care-research.html)：整理宠物用品和护理建议。
+- [搜索活动策划方案](https://bauuujs-lgtm.github.io/ai-search-prompts/prompts/event-plan-search.html)：生成活动流程和预算。
+
+## 商业合作
+
+赞助收录、广告合作、定制 AI 搜索词包：2315827339@qq.com

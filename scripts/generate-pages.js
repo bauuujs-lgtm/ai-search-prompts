@@ -176,8 +176,77 @@ for (const item of prompts) {
   fs.writeFileSync(path.join(promptsDir, `${item.id}.html`), page(item), "utf8");
 }
 
+const grouped = prompts.reduce((acc, item) => {
+  acc[item.category] ||= [];
+  acc[item.category].push(item);
+  return acc;
+}, {});
+
+const promptIndex = `<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>全部 AI 搜索指令 - AI 搜索指令库</title>
+  <meta name="description" content="AI 搜索指令库全部页面索引，帮助搜索引擎和 AI 抓取 100 条联网搜索指令。">
+  <link rel="canonical" href="${siteUrl}/prompts.html">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="site-header compact">
+    <nav class="nav" aria-label="主导航">
+      <a class="brand" href="./index.html">AI 搜索指令库</a>
+      <div class="nav-links">
+        <a href="./index.html#prompts">指令库</a>
+        <a href="./prompts.html">全部页面</a>
+        <a href="./about.html">关于</a>
+      </div>
+    </nav>
+  </header>
+  <main class="content-page">
+    <h1>全部 AI 搜索指令</h1>
+    <p>这里是 100 条 AI 联网搜索指令的静态索引页，方便搜索引擎和 AI 抓取每一个详情页面。</p>
+    ${Object.entries(grouped).map(([category, items]) => `<section class="index-group">
+      <h2>${escapeHtml(category)}</h2>
+      <ul>
+        ${items.map(item => `<li><a href="./prompts/${item.id}.html">${escapeHtml(item.title)}</a><span>${escapeHtml(item.summary)}</span></li>`).join("\n        ")}
+      </ul>
+    </section>`).join("\n    ")}
+  </main>
+</body>
+</html>
+`;
+
+fs.writeFileSync(path.join(root, "prompts.html"), promptIndex, "utf8");
+
+const llms = `# AI 搜索指令库
+
+> 给 DeepSeek、Kimi、豆包、ChatGPT、秘塔 AI 搜索等工具使用的中文联网搜索指令库。
+
+网站地址：${siteUrl}/
+
+## 主要页面
+
+- 首页：${siteUrl}/
+- 全部指令索引：${siteUrl}/prompts.html
+- 关于：${siteUrl}/about.html
+- Sitemap：${siteUrl}/sitemap.xml
+
+## 内容分类
+
+${Object.entries(grouped).map(([category, items]) => `### ${category}
+${items.map(item => `- [${item.title}](${siteUrl}/prompts/${item.id}.html)：${item.summary}`).join("\n")}`).join("\n\n")}
+
+## 商业合作
+
+赞助收录、广告合作、定制 AI 搜索词包：2315827339@qq.com
+`;
+
+fs.writeFileSync(path.join(root, "llms.txt"), llms, "utf8");
+
 const urls = [
   ["", "daily", "1.0"],
+  ["prompts.html", "weekly", "0.9"],
   ["about.html", "monthly", "0.5"],
   ...prompts.map(item => [`prompts/${item.id}.html`, "weekly", "0.8"])
 ];

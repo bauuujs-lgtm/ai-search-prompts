@@ -483,6 +483,38 @@ h2 {
   line-height: 1.8;
 }
 
+.index-group {
+  margin-top: 28px;
+}
+
+.index-group ul {
+  display: grid;
+  gap: 10px;
+  margin: 12px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.index-group li {
+  display: grid;
+  gap: 4px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: white;
+  padding: 12px;
+}
+
+.index-group a {
+  color: var(--green);
+  font-weight: 780;
+  text-decoration: none;
+}
+
+.index-group span {
+  color: var(--muted);
+  line-height: 1.6;
+}
+
 @media (max-width: 920px) {
   .hero {
     grid-template-columns: 1fr;
