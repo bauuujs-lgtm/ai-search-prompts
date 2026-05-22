@@ -424,6 +424,31 @@ h2 {
   padding: 18px;
 }
 
+.detail-section {
+  margin-top: 24px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, .72);
+  padding: 18px;
+}
+
+.detail-section h2 {
+  margin-bottom: 10px;
+  font-size: 1.18rem;
+}
+
+.detail-section p,
+.detail-section li {
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+.detail-section ol,
+.detail-section ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
 .detail-cta a {
   color: var(--green);
   font-weight: 780;
